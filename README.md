@@ -7,9 +7,9 @@ $$(h + t \approx h)$$
 
 We provide a training data from [Wikidata](https://www.wikidata.org/) in the data folder. It contains three files:
 
-* entities_full.txt: includes a list of Wikidata entity IDs
-* relations_full.txt :  includes a list of Wikidata properties (relations) IDs
-* train_full.txt: includes a list of Wikidata triples, where the first column corresponds to h, the second to t and the third to r.
+* [entities_full.txt](data/entities_full.txt): includes a list of Wikidata entity IDs
+* [relations_full.txt](data/relations_full.txt) :  includes a list of Wikidata properties (relations) IDs
+* [train_full.txt](data/train_full.txt): includes a list of Wikidata triples, where the first column corresponds to h, the second to t and the third to r.
 
 
 ## References
