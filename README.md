@@ -3,9 +3,9 @@
 TransE [Boredes et al., 2013] is an algorithm for creating low dimensional vector representation, i.e., embeddings for knowledge bases facts. 
 The algorithm is based proposes what is called the translation model to generate the embedding. 
 Briefly, the translation model is based on the following formula: Given a triple (h,r,t), where h is the head of the fact, r the relation and t is the tail, the following must hold:
-[equation] (h + t = h)
+$$(h + t \approx h)$$
 
-We provide a training data from [[https://www.wikidata.org/][Wikidata]] in the data folder. It contains three files:
+We provide a training data from [Wikidata](https://www.wikidata.org/) in the data folder. It contains three files:
 
 * entities_full.txt: includes a list of Wikidata entity IDs
 * relations_full.txt :  includes a list of Wikidata properties (relations) IDs
