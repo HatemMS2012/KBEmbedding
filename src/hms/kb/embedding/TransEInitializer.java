@@ -308,9 +308,9 @@ public class TransEInitializer {
 		
 		//prepare("data/FB15k/entity2id.txt", "data/FB15k/relation2id.txt", "data/FB15k/train.txt");
 		
-		prepare("C:/Devlopement/workspace_hanish/WikidataSampleGenerator/output/sample/entities_full.txt",
-				"C:/Devlopement/workspace_hanish/WikidataSampleGenerator/output/sample/relations_full.txt",
-				"C:/Devlopement/workspace_hanish/WikidataSampleGenerator/output/sample/train_full.txt");
+		prepare("data/entities_full.txt",
+				"data/relations_full.txt",
+				"data/train_full.txt");
 		
 		
 		
